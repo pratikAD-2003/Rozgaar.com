@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "20120215716",
+    "project_id": "rozgaar-d0598",
+    "storage_bucket": "rozgaar-d0598.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20120215716:android:4847d1a137dc7901d7c631",
+        "android_client_info": {
+          "package_name": "com.example.rozgaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20120215716-mltmmodu4d4nhohbgfd134qortjnfc21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rozgaar",
+            "certificate_hash": "08a5c2c900d444996565de8484edd7594e27d81d"
+          }
+        },
+        {
+          "client_id": "20120215716-thjdqqkiofjo0r8dlr4k6bm26erapafo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_vpzoITHXo5Zq4-VYsRR1KKshAd-0WPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20120215716-thjdqqkiofjo0r8dlr4k6bm26erapafo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

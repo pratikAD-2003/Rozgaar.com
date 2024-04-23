@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Rozgaar.com</string>
+    <string name="login_text">Login</string>
+    <string name="email_text">EMAIL</string>
+    <string name="password_text">PASSWORD</string>
+    <string name="login_btn">Login</string>
+    <string name="create_new_account_text">Create new account.</string>
+    <string name="forget_password_text">Forget password ?</string>
+    <string name="create_account_btn">create</string>
+    <string name="already_have_an_account_text">Already have an account!</string>
+    <string name="confirm_password_text">CONFIRM PASSWORD</string>
+    <string name="sign_up_with_text">Sign up with</string>
+    <string name="default_web_client_id">AIzaSyA_vpzoITHXo5Zq4-VYsRR1KKshAd-0WPI</string>
+
+
+    <string name="mobile_number_text">MOBILE NUMBER</string>
+    <string name="get_otp_text">GET OTP</string>
+    <string name="other_ways_text">Other ways</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="forget_text">Forget</string>
+    <string name="forget_your_password_text">Forget Your Password</string>
+    <string name="enter_your_name_text">ENTER YOUR NAME</string>
+    <string name="submit_text">SUBMIT</string>
+    <string name="education_text">EDUCATION</string>
+    <string name="active_mobile_number_text">ACTIVE MOBILE NUMBER</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="update_text">Update</string>
+    <string name="put_work_text">Put Work</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="enter_work_location_text">SELECT WORK LOCATION CITY</string>
+    <string name="enter_work_description_text">ENTER WORK DESCRIPTION</string>
+    <string name="enter_work_title_text">ENTER WORK TITLE</string>
+    <string name="show_more_text">SHOW MORE</string>
+    <string name="my_notifications_text">My Notifications</string>
+    <string name="add_your_profile_text">Add your profile</string>
+    <string name="max_size_200_words">"max size - "</string>
+    <string name="max_size_500_words">"max size - "</string>
+    <string name="select_location_state">SELECT LOCATION STATE</string>
+    <string name="my_posts">My Posts</string>
+    <string name="data_not_found_error_404">Data not found.</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="find_work_by_your_city_name">Find work by your city name.</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="location">LOCATION</string>
+    <string name="contact_request">Contact Request</string>
+    <string name="chat_for_more">Chat for more</string>
+    <string name="Type_here">Type from here...</string>
+    <string name="my_chats">My Chats</string>
+    <string name="duration_00_00">Duration 00:00</string>
+    <string name="title">TITLE</string>
+    <string name="date">DATE</string>
+    <string name="owner_s_details">OWNER\'S DETAILS</string>
+    <string name="send_number">Send Number</string>
+    <string name="reject_request">Reject request</string>
+    <string name="left_words"> left words</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="settings">Settings</string>
+    <string name="change_language">Change language</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="confirm">Confirm</string>
+    <string name="share_invite">Share / Invite</string>
+    <string name="choose_to_share">Invite your friend through…</string>
+    <string name="call_request"> user has asked for a contact number to contact you.</string>
+    <string name="call_request_granted">your contact request has been granted.</string>
+    <string name="see_now">click here to check</string>
+    <string name="sure">Are you sure ?</string>
+    <string name="share_msg">Your want to share your personal contact details ?</string>
+    <string name="call_request_denied">Your contact request has been denied.</string>
+    <string name="granted_call_toast">Your contact request has been shared.</string>
+    <string name="denied_call_toast">Your contact request rejection has been sent.</string>
+    <string name="share_btn">Share</string>
+    <string name="cancel">Cancel</string>
+    <string name="call_request_btn">Your call request has been sent.</string>
+</resources>

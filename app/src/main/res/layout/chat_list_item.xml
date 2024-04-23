@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_5sdp"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/ms_layout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chatList_profile"
+        android:layout_width="@dimen/_35sdp"
+        app:civ_border_color="@color/purple"
+        app:civ_border_width="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_alignParentStart="true"
+        android:layout_height="@dimen/_35sdp"/>
+
+    <TextView
+        android:layout_toEndOf="@+id/chatList_profile"
+        android:id="@+id/chatList_username"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/chatList_profile"
+        android:textSize="@dimen/_13sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/chatList_last_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12sdp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_toEndOf="@+id/chatList_profile"
+        android:layout_alignBottom="@+id/chatList_profile"
+        android:textColor="@color/black"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:visibility="gone"
+        android:id="@+id/chatList_unread_msg_signal"
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/chatList_profile"
+        android:layout_alignBottom="@+id/chatList_profile"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:src="@color/red"/>
+</RelativeLayout>

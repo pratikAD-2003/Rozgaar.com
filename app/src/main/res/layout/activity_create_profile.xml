@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_page"
+    tools:context=".LoginSignup.createProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/add_profile_pic"
+                app:civ_border_color="@color/light_blue"
+                app:civ_border_width="@dimen/_2sdp"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:src="@drawable/profile_128px" />
+
+            <ImageView
+                android:id="@+id/add_profile_pic_btn"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignEnd="@+id/add_profile_pic"
+                android:layout_alignBottom="@+id/add_profile_pic"
+                android:src="@drawable/add_pic" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add your profile"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.863">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfaufj5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text="@string/enter_your_name_text"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/enter_your_name"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_below="@+id/dfaufj5"
+                    android:maxLength="20"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edittext_box"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfaufj12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text="@string/education_text"
+                    android:textColor="@color/black" />
+
+                <Spinner
+                    android:id="@+id/select_occupation"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_below="@+id/dfaufj12"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edittext_box"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfaufj23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text="@string/email_text"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/email_entered_by_user"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_below="@+id/dfaufj23"
+                    android:layout_gravity="center"
+                    android:background="@drawable/edittext_box"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfaufj234"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text="@string/active_mobile_number_text"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/number_entered_by_user"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_below="@+id/dfaufj234"
+                    android:layout_gravity="center"
+                    android:maxLength="10"
+                    android:background="@drawable/edittext_box"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/create_user_profile_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/login_btn"
+                android:text="@string/submit_text" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

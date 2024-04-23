@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    android:elevation="@dimen/_70sdp"
+    tools:context=".MainScreen.FirstActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/kkddd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_pic_main_screen"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentStart="true"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="@dimen/_2sdp" />
+
+            <LinearLayout
+                android:id="@+id/HKJHJKJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_toEndOf="@+id/profile_pic_main_screen"
+                android:foregroundGravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/user_Name_mS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pratik Yadav"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_Number_mS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8085185299"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/open_profile_details"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_toEndOf="@+id/HKJHJKJ"
+                android:layout_alignTop="@+id/HKJHJKJ"
+                android:layout_alignBottom="@+id/HKJHJKJ"
+                android:src="@drawable/down_arrow" />
+
+            <ImageView
+                android:id="@+id/apps_settings"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_toStartOf="@+id/my_posts_btn"
+                android:src="@drawable/setting"
+                app:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/my_posts_btn"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_toStartOf="@+id/notification_btn"
+                android:src="@drawable/my_work"
+                app:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/notification_btn"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_alignParentEnd="false"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_toStartOf="@+id/message_list"
+                android:src="@drawable/notification"
+                app:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/message_list"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:src="@drawable/normal_msg"
+                app:tint="@color/white" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/notification_signal"
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:layout_alignTop="@+id/notification_btn"
+                android:layout_alignEnd="@+id/notification_btn"
+                android:src="@color/red"
+                android:visibility="gone" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/message_signal"
+                android:layout_width="@dimen/_8sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:layout_alignTop="@+id/message_list"
+                android:layout_alignEnd="@+id/message_list"
+                android:src="@color/red"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <AutoCompleteTextView
+            android:id="@+id/search_work"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/kkddd"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/main_screen_layout"
+            android:hint="@string/find_work_by_your_city_name"
+            android:paddingLeft="@dimen/_8sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/DFDF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_work"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/per_items_ms">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_screen_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_2sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/put_work_btn"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/fab_btn"
+            android:elevation="@dimen/_60sdp"
+            android:gravity="end|center"
+            android:paddingRight="@dimen/_10sdp"
+            android:text="@string/put_work_text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/put_work_btn"
+            android:layout_alignTop="@+id/put_work_btn"
+            android:layout_alignBottom="@+id/put_work_btn"
+            android:elevation="@dimen/_60sdp"
+            android:paddingLeft="@dimen/_5sdp"
+            android:src="@drawable/baseline_add_24" />
+
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/spin_kit_first"
+            style="@style/SpinKitView.Large.Circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/DFDF"
+            android:layout_alignTop="@+id/DFDF"
+            android:layout_alignEnd="@+id/DFDF"
+            android:layout_alignBottom="@+id/DFDF"
+            android:layout_gravity="center"
+            android:padding="@dimen/_130sdp"
+            app:SpinKit_Color="@color/purple" />
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

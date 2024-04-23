@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/ms_layout"
+    android:layout_margin="@dimen/_2sdp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/work_ms"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"/>
+
+    <TextView
+        android:layout_below="@id/work_ms"
+        android:id="@+id/work_title_ms"
+        android:paddingLeft="@dimen/_8sdp"
+        android:text="Copy writing work for student"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_below="@id/work_title_ms"
+        android:id="@+id/work_des_ms"
+        android:textColor="@color/black"
+        android:paddingLeft="@dimen/_8sdp"
+        android:textSize="@dimen/_10sdp"
+        android:text="student must know the basic english"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_below="@id/work_des_ms"
+        android:id="@+id/work_location_ms"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:paddingLeft="@dimen/_8sdp"
+        android:text="New market,Bhopal"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/_10sdp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_alignTop="@+id/work_location_ms"
+        android:id="@+id/work_time_ms"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:paddingRight="@dimen/_8sdp"
+        android:text="xxxxx"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/_10sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:textStyle="normal"/>
+</RelativeLayout>
