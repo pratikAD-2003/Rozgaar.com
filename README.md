@@ -1,0 +1,8 @@
+![R8](https://github.com/pratikAD-2003/Rozgaar.com/assets/162031829/b7ea5e0b-4940-42c1-815b-466b4227429f)
+![r9](https://github.com/pratikAD-2003/Rozgaar.com/assets/162031829/d629b197-31ff-4681-9972-e86560bf04e9)
+![R1](https://github.com/pratikAD-2003/Rozgaar.com/assets/162031829/b501823c-34ee-4a5d-a43e-ce90eb17c4fa)
+![R2](https://github.com/pratikAD-2003/Rozgaar.com/assets/162031829/43fe62bf-51eb-4e9a-aa5f-9dfdc8d95d87)
+![R3](https://github.com/pratikAD-2003/Rozgaar.com/assets/162031829/fca9b48a-ef60-4826-b0a6-0a72b416b303)
+![R4](https://github.com/pratikAD-2003/Rozgaar.com/assets/162031829/59c74129-20e2-410f-8495-47415a25bcac)
+![R5](https://github.com/pratikAD-2003/Rozgaar.com/assets/162031829/ac0ebfc1-a519-4313-8977-9d4ac4b5244d)
+![R7](https://github.com/pratikAD-2003/Rozgaar.com/assets/162031829/5e1b373a-8da0-43b4-9992-749e006b7362)
