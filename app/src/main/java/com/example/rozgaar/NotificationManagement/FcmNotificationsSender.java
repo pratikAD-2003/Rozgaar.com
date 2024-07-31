@@ -1,5 +1,7 @@
 package com.example.rozgaar.NotificationManagement;
 
+import static com.example.rozgaar.NotificationManagement.NotificationModel.NOTI_SENDER_TOKEN;
+
 import android.app.Activity;
 import android.content.Context;
 
@@ -29,7 +31,7 @@ public class FcmNotificationsSender  {
 
     private RequestQueue requestQueue;
     private final String postUrl = "https://fcm.googleapis.com/fcm/send";
-    private final String fcmServerKey ="AAAABK9CIKQ:APA91bFvubG_Qb68HDaProXr_S-ZNjSdajNPcULPTjJZh-_0MK4OTPLvmJz7Po1pPI6PzojArNMt2TCSTEYatJr7d6ldPvlgQQsdvx2xkOphREBJaAXl2w4jNLULVp0VkOnjjVjj1_Ra";
+    private final String fcmServerKey = NOTI_SENDER_TOKEN;
 
     public FcmNotificationsSender(String userFcmToken, String title, String body, Context mContext, Activity mActivity) {
         this.userFcmToken = userFcmToken;

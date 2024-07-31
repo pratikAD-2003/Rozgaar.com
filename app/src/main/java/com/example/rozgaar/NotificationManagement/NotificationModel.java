@@ -1,6 +1,8 @@
 package com.example.rozgaar.NotificationManagement;
 
 public class NotificationModel {
+
+    public static final String NOTI_SENDER_TOKEN = "AAAABK9CIKQ:APA91bFvubG_Qb68HDaProXr_S-ZNjSdajNPcULPTjJZh-_0MK4OTPLvmJz7Po1pPI6PzojArNMt2TCSTEYatJr7d6ldPvlgQQsdvx2xkOphREBJaAXl2w4jNLULVp0VkOnjjVjj1_Ra";
     public NotificationModel() {
     }
 
