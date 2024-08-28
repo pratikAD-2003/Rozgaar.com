@@ -1,2 +1,2 @@
-![rozgaar](https://github.com/pratikAD-2003/Rozgaar.com/assets/162031829/10c5d90e-e8f8-4a0d-80d4-1b0344510fd6)
-![rozgaar2](https://github.com/pratikAD-2003/Rozgaar.com/assets/162031829/bc75464e-9ded-4858-9a24-f0d43c385184)
+![Rozgaar_1](https://github.com/user-attachments/assets/fc050b0c-e6f7-4ddc-b141-470c00c96b90)
+![Rozgaar_2](https://github.com/user-attachments/assets/97a7899a-897b-45c9-b827-ff0d64a1434f)
